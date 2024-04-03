@@ -1,0 +1,137 @@
+
+
+.catalog_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalog_topSide{
+    height: 290px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalog_inputDiv{
+    height: 50px;
+    max-width: 340px;
+    min-width: 320px;
+    margin-bottom:25px;
+    position: relative;
+    top: -2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #4e4e5089;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-self: center;
+    align-items: end;
+
+    img{
+        margin-left: 5px;
+        align-self: center;
+        padding-top:20px;
+        margin-right: 2px;
+        width: 24px;
+        height: 24px;
+    }
+}
+.catalog_input {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: 0px;
+    width: 100%;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    padding-top: 20px; 
+    color: #4e4e5089;
+    font-family: Ubuntu Condensed;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 5px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder {
+    color: #4e4e5089;
+    width: fit-content;
+    margin-top: 10px; 
+    font-family: Ubuntu Condensed;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.catalog_inputDiv_options{
+    width: 160px;
+    height: 20px;
+    background-color: #4E4E50;
+    color: white;
+    position: relative;
+    left: 20%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog_choice{
+    width: 100%;
+    max-width: 340px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.catalog_choice button{
+    width: fit-content;
+    border: 0px;
+    border-radius: 10px;
+    height: 42px;
+    padding: 1%;
+    background-color: #1A1A1D;
+    color: white;
+    font-family: "Vast Shadow", serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.catalog_centerSide{
+    width: 100%;
+}
+
+.catalog_items{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
