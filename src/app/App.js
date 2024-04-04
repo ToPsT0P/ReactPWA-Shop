@@ -6,6 +6,8 @@ import homeIcon from "../shared/home.png"
 import heartIcon from "../shared/heart.png"
 import pushIcon from "../shared/push.png"
 import cartIcon from "../shared/cart.png"
+import MyCart from '../pages/MyCart/MyCart';
+import CurrentItem from '../pages/currentItem/CurrentItem';
 
 function App() {
   return (
