@@ -130,8 +130,9 @@ input::placeholder {
     width: 100%;
     margin-top: 30px;
     display: flex;
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: 25px;
+    column-gap: 20px;
     flex-wrap: wrap;
+    
 }
 

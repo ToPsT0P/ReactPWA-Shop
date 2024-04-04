@@ -3,7 +3,6 @@ import searchImage from "../../shared/searchImage.svg"
 import { useState } from "react"
 import GoodsItem from "../../entities/goodsItem/GoodsItem"
 
-
 const Catalog = () => {
 
     const [testArray] = useState([
@@ -61,9 +60,7 @@ const Catalog = () => {
                 </div>
             </div>
 
-            <div className={styles.catalog_bottomSide}>
-                {/* Тут виджет navbar из папки Widget*/}
-            </div>
+        
         </div>
     )
 }
