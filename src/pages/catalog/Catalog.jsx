@@ -1,12 +1,13 @@
 import styles from "./Catalog.module.css"
 import searchImage from "../../shared/searchImage.svg"
+import Images from "../../shared/ImportImages"
 import { useState } from "react"
 import GoodsItem from "../../entities/goodsItem/GoodsItem"
 
 const Catalog = () => {
 
     const [testArray] = useState([
-        {
+        { 
             obj:1
         },
         {
@@ -34,7 +35,7 @@ const Catalog = () => {
             <div className={styles.catalog_topSide}>
                 <div className={styles.catalog_inputDiv}>
                     <div className={styles.catalog_input}>
-                        <img src={searchImage} alt="" />
+                        <img src={Images.searchImage} alt="" />
                         <input 
                         type="text" 
                         placeholder="Введите название товара или бренда"/>

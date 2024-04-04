@@ -1,8 +1,5 @@
-import photo1 from "../../shared/photo1.png"
-import like from "../../shared/like.svg"
 import styles from "./GoodsItem.module.css"
-import addToBuyImage from "../../shared/addToCart.png"
-
+import Images from "../../shared/ImportImages"
 
 const GoodsItem = () => {
 
@@ -11,11 +8,11 @@ const GoodsItem = () => {
         <div className={styles.catalog_item}>
             <div className={styles.catalog_item_image}>
                 <img className={styles.catalog_item_addToBuy} 
-                src={addToBuyImage} alt="" />
+                src={Images.addToCart} alt="" />
 
                 <img
                 className={styles.catalog_item_goodsImage} 
-                src={photo1} alt="" />
+                src={Images.photo1} alt="" />
 
             </div>
             <div className={styles.catalog_itemBottom}>
@@ -24,7 +21,7 @@ const GoodsItem = () => {
                 </div>
                 <div className={styles.catalog_itemBottom_price}>
                     189 RUB
-                    <img src={like} alt="" />
+                    <img src={Images.like} alt="" />
                 </div>
             </div>
         </div>
