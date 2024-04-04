@@ -99,7 +99,7 @@ legend {
     align-items: center;
 }
 
-.container__Item-leftSideInfo
+.container__Item__leftSideInfo
 {
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ h2
 }
 
 
-.container__Item-rightSideInfo
+.container__Item__rightSideInfo
 {
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ h2
 
 }
 
-.container__Item-rightSideInfo-size
+.container__Item__rightSideInfo__size
 {
     display: flex;
     gap: 10px;

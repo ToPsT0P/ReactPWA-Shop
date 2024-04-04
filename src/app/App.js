@@ -18,6 +18,7 @@ function App() {
           <img alt='' src={homeIcon} />
           <img alt='' src={cartIcon} />
           <img alt='' src={heartIcon} />
+        
       </div>
     </div>
   )

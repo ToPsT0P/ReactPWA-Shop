@@ -6,15 +6,16 @@ const Cart = () =>
     return(
         <div className={styles.container}>
 
-            <div className={styles.container__Item-leftSideInfo}>
+            <div className={styles.container__Item__leftSideInfo}>
                 <img src={photo2} alt="" />
                 <h2>500 RUB</h2>
             </div>
 
-            <div className={styles.container__Item-rightSideInfo}>
+            <div className={styles.container__Item__rightSideInfo}>
                 <h2>Jaqueline Curvie bermuda chino femme en twill avec broderie curvy</h2>
-                <div className={styles.container__Item-rightSideInfo-size}>
-
+                <div className={styles.container__Item__rightSideInfo__size}>
+                    <p>SIZE: M</p>
+                    <p>COLOR: BLACK</p>
                 </div>
             </div>
 
