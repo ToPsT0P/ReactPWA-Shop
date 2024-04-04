@@ -10,8 +10,8 @@ import searchImage from "./searchImage.svg"
 import user from "./user.png"
 
 
-const images = [
+const Images = {
     addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user
-]
+}
 
-export default images
+export default Images
