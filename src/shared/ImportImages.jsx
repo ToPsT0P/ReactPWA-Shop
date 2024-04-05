@@ -8,10 +8,11 @@ import photo2 from "./photo2.png"
 import push from "./push.png"
 import searchImage from "./searchImage.svg"
 import user from "./user.png"
-
+import plus from "./plus.svg"
+import minus from "./minus.svg"
 
 const Images = {
-    addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user
+    addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user, plus, minus
 }
 
 export default Images

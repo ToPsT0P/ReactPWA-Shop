@@ -6,6 +6,7 @@ import homeIcon from "../shared/home.png"
 import heartIcon from "../shared/heart.png"
 import pushIcon from "../shared/push.png"
 import cartIcon from "../shared/cart.png"
+import Cart from '../entities/Cart/Cart';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <img alt='' src={homeIcon} />
           <img alt='' src={cartIcon} />
           <img alt='' src={heartIcon} />
-        
-      </div>
+        </div>
+        <Cart />
     </div>
   )
 }
