@@ -8,16 +8,20 @@ import pushIcon from "../shared/push.png"
 import cartIcon from "../shared/cart.png"
 import MyCart from '../pages/MyCart/MyCart';
 import CurrentItem from '../pages/currentItem/CurrentItem';
+import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
 
     <div className={styles.absoluteWrapper}>
-        <CurrentItem/>
+      <Routes>
+        <Route path="/" element={<Catalog/>} />
+        <Route path="/item" element={<CurrentItem/>}/>
+      </Routes>
         <div className={styles.navbar}>
           <img alt='' src={pushIcon} />
           <img alt='' src={userIcon} />
-          <img alt='' src={homeIcon} />
+          <Link to={"/"} ><img alt='' src={homeIcon} /></Link>
           <img alt='' src={cartIcon} />
           <img alt='' src={heartIcon} />
         

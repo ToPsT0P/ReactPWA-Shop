@@ -70,6 +70,7 @@
 .productPage_topSide_description_price{
     display: flex;
     width: 35%;
+    padding-right: 20px;
     flex-wrap: wrap;
     align-items: start;
     justify-content: start;
@@ -82,6 +83,7 @@
     font-size: 24px;
     line-height: 28px;
     display: flex;
+    padding-left: 20px;
     align-items: center;
     color: #1A1A1D;
     flex: none;
@@ -140,4 +142,18 @@
     order: 0;
     flex-grow: 0;
 
+}
+
+.productPage_topSide_description_price_cirlce{
+    border-radius: 50%;
+    width: 25px;
+    border: 1px solid #1a1a1d88;
+    height: 25px;
+}
+
+.productPage_topSide_description_price_circles{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }

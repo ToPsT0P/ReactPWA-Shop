@@ -2,6 +2,7 @@ import styles from "./Catalog.module.css"
 import Images from "../../shared/ImportImages"
 import { useState } from "react"
 import GoodsItem from "../../entities/goodsItem/GoodsItem"
+import { Link } from "react-router-dom"
 
 const Catalog = () => {
 
@@ -40,7 +41,7 @@ const Catalog = () => {
                         placeholder="Введите название товара или бренда"/>
                     </div>
                     <div className={styles.catalog_inputDiv_options}>
-                        Доп. Опции
+                        Фильтрация
                     </div>
                 </div>
                 <div className={styles.catalog_choice}>
@@ -56,7 +57,7 @@ const Catalog = () => {
             {/* Вывод товаров */}
             <div className={styles.catalog_centerSide}>
                 <div className={styles.catalog_items}>
-                    {testArray.map(() => {return <GoodsItem/>})}           
+                    {testArray.map(() => {return<GoodsItem/>})}           
                 </div>
             </div>
 

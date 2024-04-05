@@ -36,6 +36,20 @@ const CurrentItem = () => {
                     <div className={styles.productPage_topSide_description_price}>
                         <p className={styles.productPage_topSide_description_price_priceText}>500 RUB</p>
                         <p className={styles.productPage_topSide_description_price_name}>SHOES</p>
+                        <div className={styles.productPage_topSide_description_price_circles}>
+                            <div 
+                            style={{backgroundColor: "yellow"}}
+                            className={styles.productPage_topSide_description_price_cirlce}></div>
+                            
+                            <div 
+                            style={{backgroundColor: "red"}}
+                            className={styles.productPage_topSide_description_price_cirlce}></div>
+                            
+                            <div 
+                            style={{backgroundColor: "blue"}}
+                            className={styles.productPage_topSide_description_price_cirlce}></div>
+
+                        </div>
                     </div>
                 </div>
             </div>
