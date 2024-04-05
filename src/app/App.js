@@ -17,12 +17,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Catalog/>} />
         <Route path="/item" element={<CurrentItem/>}/>
+        <Route path='/cart' element={<MyCart/>}/>
       </Routes>
         <div className={styles.navbar}>
           <img alt='' src={pushIcon} />
           <img alt='' src={userIcon} />
           <Link to={"/"} ><img alt='' src={homeIcon} /></Link>
-          <img alt='' src={cartIcon} />
+          <Link to={"/cart"}><img alt='' src={cartIcon} /></Link>
           <img alt='' src={heartIcon} />
         
       </div>

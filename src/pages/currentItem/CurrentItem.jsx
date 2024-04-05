@@ -1,11 +1,12 @@
 import Comment from "../../entities/comments/Comment"
 import styles from "./CurrentItem.module.css"
-import exitImage from "../../shared/exit.svg"
-import exampleImage from "../../shared/example.png"
-import shareImage from "../../shared/share.svg"
-import addToCart from "../../shared/addToCart.svg"
+import Images from "../../shared/ImportImages"
 
 const CurrentItem = () => {
+
+    const testSizeArray = [
+        36,38,40,42,44
+    ]
 
     return(
 
@@ -15,19 +16,19 @@ const CurrentItem = () => {
                     <div className={styles.productImage_userButtons}>
                         <img 
                         className={styles.productImage_exitImage}
-                        src={exitImage} alt="" />
+                        src={Images.exitImage} alt="" />
                         <img 
                         className={styles.productImage_shareImage}
-                        src={shareImage} alt="" />
+                        src={Images.shareImage} alt="" />
 
                     </div>
                     <img
                     className={styles.productImage} 
-                    src={exampleImage} alt="" />
+                    src={Images.exampleImage} alt="" />
 
                     <img 
                     className={styles.addToCart}
-                    src={addToCart} alt="" />
+                    src={Images.addToCart} alt="" />
                 </div>
                 <div className={styles.productPage_topSide_description}>
                     <div className={styles.productPage_topSide_description_text}>
@@ -58,7 +59,9 @@ const CurrentItem = () => {
                 <div className={styles.productPage_centralSide_size}>
                     <h2>SELECT SIZE</h2>
                     <div className={styles.productPage_centralSide_size_buttons}>
-
+                        {testSizeArray.map((item, i) => {
+                            return <button className={styles.productPage_centralSide_size_button}>{item}</button>
+                            })}
                     </div>
                 </div>
             </div>
