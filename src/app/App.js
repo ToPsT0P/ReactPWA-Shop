@@ -13,7 +13,7 @@ function App() {
   return (
 
     <div className={styles.absoluteWrapper}>
-        <Catalog/>
+        <CurrentItem/>
         <div className={styles.navbar}>
           <img alt='' src={pushIcon} />
           <img alt='' src={userIcon} />

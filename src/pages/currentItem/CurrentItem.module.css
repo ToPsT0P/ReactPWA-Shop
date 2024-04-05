@@ -43,8 +43,101 @@
     justify-content: space-between;
 
     img{
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 41px;
 
     }
+}
+
+.addToCart{
+    position: relative;
+    left: 80%;
+    top: -110px;
+}
+
+.productPage_topSide_description{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    top: -60px;
+}
+
+.productPage_topSide_description_text p{
+    width: 65%;
+    min-width: 265px;
+}
+
+.productPage_topSide_description_price{
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+}
+
+.text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1D;
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+    flex-grow: 0;
+        color: #1A1A1D;
+
+
+}
+
+.productPage_topSide_description_price_name{
+    color: #1a1a1d7e  ;
+    
+    width: 51px;
+    height: 22px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 149%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    color: #1A1A1D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.productPage_topSide_description_price_priceText{
+    /* 500 RUB */
+
+    width: 99px;
+    padding-top: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #1A1A1D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
 }

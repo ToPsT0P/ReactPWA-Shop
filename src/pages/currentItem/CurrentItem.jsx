@@ -26,14 +26,16 @@ const CurrentItem = () => {
                     src={exampleImage} alt="" />
 
                     <img 
+                    className={styles.addToCart}
                     src={addToCart} alt="" />
                 </div>
                 <div className={styles.productPage_topSide_description}>
                     <div className={styles.productPage_topSide_description_text}>
-
+                        <p className={styles.text}>Jaqueline Curvie bermuda chino femme en twill avec broderie curvy</p>
                     </div>
                     <div className={styles.productPage_topSide_description_price}>
-
+                        <p className={styles.productPage_topSide_description_price_priceText}>500 RUB</p>
+                        <p className={styles.productPage_topSide_description_price_name}>SHOES</p>
                     </div>
                 </div>
             </div>

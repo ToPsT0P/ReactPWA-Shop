@@ -1,5 +1,4 @@
 import styles from "./Catalog.module.css"
-import searchImage from "../../shared/searchImage.svg"
 import Images from "../../shared/ImportImages"
 import { useState } from "react"
 import GoodsItem from "../../entities/goodsItem/GoodsItem"

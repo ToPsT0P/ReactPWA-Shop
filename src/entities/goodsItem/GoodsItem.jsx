@@ -12,7 +12,7 @@ const GoodsItem = () => {
 
                 <img
                 className={styles.catalog_item_goodsImage} 
-                src={Images.photo1} alt="" />
+                src={Images.photo1}  alt="" />
 
             </div>
             <div className={styles.catalog_itemBottom}>

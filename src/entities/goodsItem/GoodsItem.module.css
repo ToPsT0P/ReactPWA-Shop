@@ -55,23 +55,23 @@
     position:relative;
     top: -20px;
     right: -15px;
-    z-index: 100;
+    z-index: 1;
     
 }
 
 .catalog_item_goodsImage{
-    width: 104%;
+    width: 105%;
     position: relative;
-    top: -41px;
-    left: -3px; 
+    top: -38px;
+    left: -0px; 
 }
 
 @media(max-width: 382px){
     .catalog_item_goodsImage{
-        width: 101%;
+        width: 200%;
         position: relative;
         top: -41px;
-        left: -0.5px;
+        left: 0px;
         
     }
 }   
