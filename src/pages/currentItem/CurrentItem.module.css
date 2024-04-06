@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.productPage_wrapper{
+    width: 100%;
+    height: fit-content;
+}
+
+.productPage_topSide{
+    width: 100%;
+    height: fit-content;
+}
+
+.productPage_topSide_image{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.productImage{
+    width: 100%;
+    border-bottom: 1px solid #6F2232;
+    position: relative;
+    max-width: 900px;
+    top: -40px;
+}
+
+.productImage_exitImage{
+    position: relative;
+    justify-self: end;
+}
+
+.productImage_shareImage{
+    position: relative;
+}
+
+.productImage_userButtons{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 50px;
+        height: 41px;
+
+    }
+}
+
+.addToCart{
+    position: relative;
+    left: 80%;
+    top: -110px;
+}
+
+.productPage_topSide_description{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    top: -60px;
+}
+
+.productPage_topSide_description_text p{
+    width: 65%;
+    min-width: 265px;
+}
+
+.productPage_topSide_description_price{
+    width: 35%;
+    padding-right: 20px;
+
+}
+
+.text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    color: #1A1A1D;
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+    flex-grow: 0;
+        color: #1A1A1D;
+
+
+}
+
+.productPage_topSide_description_price_name{
+    color: #1a1a1d7e;
+    padding-left: 5px;
+    
+    width: 51px;
+    height: 22px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 149%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    color: #1A1A1D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.productPage_topSide_description_price_priceText{
+    /* 500 RUB */
+
+    width: 99px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #1A1A1D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.productPage_topSide_description_price_cirlce{
+    border-radius: 50%;
+    width: 25px;
+    border: 1px solid #1a1a1d88;
+    height: 25px;
+}
+
+.productPage_topSide_description_price_circles{
+    width: 100%;
+    display: flex;
+    margin-top: 2px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+.productPage_centralSide{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productPage_centralSide_size{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h2{
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+
+        color: #1a1a1dc0;
+
+
+    }
+}
+
+.productPage_centralSide_size_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.productPage_centralSide_size_button{
+    background-color: black;
+    color: white;
+    margin-bottom: 200px;
+}
