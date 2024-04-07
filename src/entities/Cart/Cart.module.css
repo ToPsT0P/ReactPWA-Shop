@@ -93,30 +93,33 @@ legend {
 
 .container
 {
+    z-index: 0;
     border-bottom: 1px solid #6F2232;
     padding-bottom: 5px;
     display: flex;
-    align-items: center;
+    gap: 17px;
+    width: 336px;
+    max-height: 145px;
 }
 
 .container__Item__leftSideInfo
 {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     img
     {
-        border: 1px solid #6F2232;
-        border-radius: 5px;
+        width: 96px;
+        height: 120px;
     }
 }
 
 h2
 {
     font-family: "Ubuntu" Medium;
-    line-height: 53px;
     white-space: normal;
-    letter-spacing: 7%;
+    letter-spacing: 1px;
+    line-height: 150%;
     font-size: 12px;
 }
 
@@ -125,21 +128,63 @@ h2
 {
     display: flex;
     flex-direction: column;
-
-
+    width: 223px;
+    align-items: flex-start;
+    height: 110px;
 }
 
 .container__Item__rightSideInfo__size
 {
     display: flex;
     gap: 10px;
+}
 
-    p
+p
     {
         letter-spacing: 7%;
-        font-family: "Ubuntu", Regular;
+        font-family: "Ubuntu", Medium;
         color: #4E4E50;
         font-size: 12px;
+    }
+
+.container__Item__rightSideInfo__Container
+{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.container__Item__rightSideInfo__Quntity
+{
+    display: flex;
+    align-items: center;
+}
+
+.container__Item__rightSideInfo__QuntityCount
+{
+    margin-left: 6px;
+    display: flex;
+    color: #6F2232;
+    font-size: 8px;
+    border: 1px solid #6F2232;
+    border-radius: 3px;
+    width: 30px;
+    height: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__Item__rightSideInfo__SetQuantity
+{
+    display: flex;
+    gap: 5px;
+    button{ 
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #6F2232;
+    border-radius: 5px;
+    bottom: 50%;
     }
 }
 
