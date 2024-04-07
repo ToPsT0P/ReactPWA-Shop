@@ -11,10 +11,10 @@ import user from "./user.png"
 import exitImage from "./exit.svg"
 import exampleImage from "./example.png"
 import shareImage from "./share.svg"
-
+import userIcon from "./userIcon.svg"
 
 const Images = {
-    addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user, exampleImage, exitImage, shareImage
+    addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user, exampleImage, exitImage, shareImage, userIcon
 }
 
 

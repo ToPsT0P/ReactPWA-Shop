@@ -1,0 +1,34 @@
+.comment_wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.comment_wrapper_leftSide{
+    width: 17%;
+    padding-top: 8px;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.comment_wrapper_rightSide{
+    width: 83%;
+    padding-top: 3px;
+    padding-right: 8px;
+
+    p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #1A1A1D;
+
+    }
+}
+
