@@ -1,6 +1,7 @@
 import Comment from "../../entities/comments/Comment"
 import styles from "./CurrentItem.module.css"
 import Images from "../../shared/ImportImages"
+import { Link } from "react-router-dom"
 
 const CurrentItem = () => {
 
@@ -14,9 +15,12 @@ const CurrentItem = () => {
             <div className={styles.productPage_topSide}>
                 <div className={styles.productPage_topSide_image}>
                     <div className={styles.productImage_userButtons}>
-                        <img 
-                        className={styles.productImage_exitImage}
-                        src={Images.exitImage} alt="" />
+                        <Link to={"/"}>
+                            <img 
+                            className={styles.productImage_exitImage}
+                            src={Images.exitImage} alt="" />
+                        
+                        </Link>
                         <img 
                         className={styles.productImage_shareImage}
                         src={Images.shareImage} alt="" />
@@ -62,14 +66,45 @@ const CurrentItem = () => {
                         {testSizeArray.map((item, i) => {
                             return <button className={styles.productPage_centralSide_size_button}>{item}</button>
                             })}
+                            
                     </div>
                 </div>
             </div>
 
             <div className={styles.productPage_bottomSide}>
+                <h2>CUSTOMERS RATING</h2>
                 <div className={styles.productPage_bottomSide_comments}>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
+                    <Comment/>
                     <Comment/>
                 </div>
+
+                <button className={styles.productPage_bottomSide_button}>ADD TO CART</button>
             </div>
         </div>
     )
