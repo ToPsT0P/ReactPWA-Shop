@@ -92,6 +92,50 @@ legend {
 /* Сама верстка */
 h1
 {
-   font-family: "Ubuntu" regular;
+   font-family: "Ubuntu" Regular;
    font-size: 36px; 
+   color: #1A1A1D;
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 28px;
+	margin-top: 30px;
+}
+
+.cartsItem
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.carts__totalPrice
+{
+	display: flex;
+	width: 85%;
+	justify-content: space-between;
+
+	p{
+		font-family: "Ubuntu" Light;
+		font-size: 12px;
+	};
+
+	span{
+		font-family: "Ubuntu" Medium;
+		font-size: 12px;
+	}
+}
+
+button{
+	width:250px ;
+	font-family: "Ubuntu" Light;
+	font-size: 20px;
+	height: 44px;
+	background-color: #6F2232;
+	color: white;
+	border-radius: 5px;
+	letter-spacing: 1px;
 }

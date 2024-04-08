@@ -25,6 +25,7 @@ const Cart = () =>
                     <div className={styles.container__Item__rightSideInfo__SetQuantity}>
                         <button><img src={Images.plus} alt="" srcset="" onClick={() => setCount(count+1)} /></button>
                         <button><img src={Images.minus} alt="" srcset="" onClick={() => setCount(count-1)} /></button>
+                        <button className={styles.CartButton} style={{backgroundColor: "White"}}><img src={Images.vector} alt="" /></button>
                     </div>
                 </div>
             </div>
