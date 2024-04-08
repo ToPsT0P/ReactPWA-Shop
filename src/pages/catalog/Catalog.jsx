@@ -4,7 +4,7 @@ import { useState } from "react"
 import GoodsItem from "../../entities/goodsItem/GoodsItem"
 import { Link } from "react-router-dom"
 
-const Catalog = () => {
+const Catalog = ({setFilterModalActive}) => {
 
     const [testArray] = useState([
         { 
@@ -40,7 +40,9 @@ const Catalog = () => {
                         type="text" 
                         placeholder="Введите название товара или бренда"/>
                     </div>
-                    <div className={styles.catalog_inputDiv_options}>
+                    <div 
+                    onClick={() => {setFilterModalActive(true)}}
+                    className={styles.catalog_inputDiv_options}>
                         Фильтрация
                     </div>
                 </div>

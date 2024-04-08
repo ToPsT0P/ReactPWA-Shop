@@ -1,32 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Catalog from '../pages/catalog/Catalog';
 import styles from "./app.module.css"
-import userIcon from "../shared/user.png"
-import homeIcon from "../shared/home.png"
-import heartIcon from "../shared/heart.png"
-import pushIcon from "../shared/push.png"
-import cartIcon from "../shared/cart.png"
-import Cart from '../entities/Cart/Cart';
 import CurrentItem from '../pages/currentItem/CurrentItem';
 import { Link, Route, Routes } from 'react-router-dom';
+import MyCart from '../pages/MyCart/MyCart';
+import Navbar from '../widgets/navbar/Navbar';
+import FilterModal from '../widgets/filterModal/FilterModal';
 
 function App() {
+
+  const [filterModalActive, setFilterModalActive] = useState(false)
+
   return (
 
     <div className={styles.absoluteWrapper}>
+      {filterModalActive && <FilterModal setFilterModalActive={setFilterModalActive} />}
       <Routes>
-        <Route path="/" element={<Catalog/>} />
+        <Route path="/" element={<Catalog setFilterModalActive={setFilterModalActive}/>} />
         <Route path="/item" element={<CurrentItem/>}/>
-        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/cart' element={<MyCart/>}/>
       </Routes>
-        <div className={styles.navbar}>
-          <img alt='' src={pushIcon} />
-          <img alt='' src={userIcon} />
-          <Link to={"/"} ><img alt='' src={homeIcon} /></Link>
-          <Link to={"/cart"}><img alt='' src={cartIcon} /></Link>
-          <img alt='' src={heartIcon} />
-        </div>
-        {/* <Cart /> */}
+        <Navbar/>
     </div>
   )
 }
