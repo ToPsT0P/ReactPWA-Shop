@@ -6,6 +6,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import MyCart from '../pages/MyCart/MyCart';
 import Navbar from '../widgets/navbar/Navbar';
 import FilterModal from '../widgets/filterModal/FilterModal';
+import UserOrder from '../pages/userOrder/UserOrder';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Catalog setFilterModalActive={setFilterModalActive}/>} />
         <Route path="/item" element={<CurrentItem/>}/>
         <Route path='/cart' element={<MyCart/>}/>
+        <Route path="/order" element={<UserOrder/>} />
       </Routes>
         <Navbar/>
     </div>

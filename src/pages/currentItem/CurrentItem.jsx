@@ -64,7 +64,7 @@ const CurrentItem = () => {
                     <h2>SELECT SIZE</h2>
                     <div className={styles.productPage_centralSide_size_buttons}>
                         {testSizeArray.map((item, i) => {
-                            return <button className={styles.productPage_centralSide_size_button}>{item}</button>
+                            return <button key={i} className={styles.productPage_centralSide_size_button}>{item}</button>
                             })}
                             
                     </div>

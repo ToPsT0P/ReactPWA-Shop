@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Cart from "../../entities/Cart/Cart"
 import styles from "./MyCart.module.css"
 import React, {useState} from "react"
@@ -29,7 +30,7 @@ const MyCart = () =>
             </div>
 
             <div className={styles.carts__checkout}>
-                <button>Proceed to checkout</button>
+            <Link to={"/order"}><button>Proceed to checkout</button></Link>
             </div>
         </div>
     )
