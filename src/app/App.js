@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Catalog/>} />
         <Route path="/item" element={<CurrentItem/>}/>
-        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/cart' element={<MyCart/>}/>
       </Routes>
         <div className={styles.navbar}>
           <img alt='' src={pushIcon} />
@@ -26,7 +26,6 @@ function App() {
           <Link to={"/cart"}><img alt='' src={cartIcon} /></Link>
           <img alt='' src={heartIcon} />
         </div>
-        <MyCart />
     </div>
   )
 }

@@ -10,19 +10,14 @@ import searchImage from "./searchImage.svg"
 import user from "./user.png"
 import plus from "./plus.svg"
 import minus from "./minus.svg"
-<<<<<<< HEAD
-import vector from "./Vector.svg"
-const Images = {
-    addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user, plus, minus, vector
-=======
 import exitImage from "./exit.svg"
 import exampleImage from "./example.png"
 import shareImage from "./share.svg"
 import userIcon from "./userIcon.svg"
+import vector from './Vector.svg'
 
 const Images = {
-    addToCart, cart, heart, home, like, photo1, photo2, push, searchImage, user, exampleImage, exitImage, shareImage, userIcon, minus, plus
->>>>>>> 4922996d56a4039748dae2256672ac699b927372
+    addToCart, cart, heart, home, like, photo1, photo2, push, vector, searchImage, user, exampleImage, exitImage, shareImage, userIcon, minus, plus
 }
 
 
