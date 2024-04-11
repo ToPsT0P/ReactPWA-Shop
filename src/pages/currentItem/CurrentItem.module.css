@@ -202,8 +202,8 @@
 }
 
 .productPage_bottomSide{
-    margin-bottom: 80px;
     margin-top: 35px;
+    padding-bottom: 80px;
     width: 100%;
     display: flex;
     justify-content: center;

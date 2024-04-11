@@ -1,0 +1,135 @@
+
+
+.orderPage_wrapper{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.orderPage_centralSide{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.orderPage_topSide{
+    margin-bottom: 40px;
+    h1{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+
+        color: #1A1A1D;
+    }
+}
+
+.orderPage_mapBox{
+    width: 100%;
+    display: flex;
+    text-align: start;
+    align-self:flex-start;
+    flex-wrap: wrap;
+
+    h2{
+        position: relative;
+        left: -45px;
+        font-family: 'Ubuntu Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #1A1A1D;
+
+
+    }
+}
+
+.orderPage_map{
+    width: 80%;
+    margin-top: 10px;
+    border: 3px solid #6F2232;
+    height:300px;
+    background-color: black;
+}
+
+.orderPage_cardData{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1D;
+
+    button{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 5px;
+        gap: 10px;
+        width: 85px;
+        font-family: 'Ubuntu Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #D9D9D9;
+        height: 32px;
+        background: #6F2232;
+        border-radius: 10px;
+    }
+}
+
+.orderPage_cardData_card{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 20px;
+
+    label{
+        font-family: 'Brygada 1918';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #1A1A1D;
+
+
+    }
+
+    input{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 46px 1px 10px;
+        gap: 10px;
+        height: 39px;
+        border: 1px solid #4E4E50;
+        border-radius: 5px;
+
+    }
+}
+
+.orderPage_cardData_card_shortInput{
+    width: 40%;
+}

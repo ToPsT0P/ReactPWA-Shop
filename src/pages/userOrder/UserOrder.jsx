@@ -18,8 +18,29 @@ const UserOrder = () => {
                 </div>
 
                 <div className={styles.orderPage_cardData}>
-                    <h2>Введите данные</h2>
-                    <button>Сохранить карту</button>
+                    <h2>Данные карты</h2>
+                </div>
+                <div className={styles.orderPage_cardData_card}>
+                    <div style={{width:"100%"}}>
+                        <label htmlFor="">Номер карты</label>
+                        <input id="cardNumber" type="text" placeholder="**** **** **** ****" />
+
+                    </div>
+                    <div style={{width:"48%"}}>
+                        <label>Дата окончания</label>
+                        <input id="cardExpiration" type="text" placeholder="MM/YY" />
+
+                    </div>
+                    <div style={{width:"48%"}}>
+                        <label>Код безопасности</label>
+                        <input id="cardCVV" type="text"  placeholder="CVV"/>
+
+                    </div>
+                    <div style={{width:"100%"}}>
+                        <label>Владелец</label>
+                        <input id="cardholderName" type="text" placeholder="ФИО" />
+
+                    </div>
                 </div>
             </div>
 
