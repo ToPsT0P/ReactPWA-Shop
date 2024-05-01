@@ -4,32 +4,50 @@
     max-width: 165px;
     border-radius: 10px;
     height: 280px;
-    border: 1px solid #6f2232;
-    background-color: #6f2232;
+    border: 2px solid #B73636;
+    background-color: white;
     color: rgb(255, 255, 255);
 
 }
 
+.catalog_itemBottom{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .catalog_itemBottom_text{
     position: relative;
-    top: -33px;
+    text-align: center;
     padding-left: 5px;
+    margin-top: 14px;
     font-family: 'Ubuntu';
+    background: #B73636;
+    width: 122px;
+    height: fit-content;
     font-style: normal;
     font-weight: 700;
     font-size: 9px;
     line-height: 115.22%;
     display: flex;
     align-items: center;
+    text-align: center;
     letter-spacing: 0.07em;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 7px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: #FFFFFF;
+    flex: none;
     flex-grow: 0;
 
 }
@@ -50,17 +68,26 @@
     line-height: 28px;
     display: flex;
     align-items: center;
-    position: relative;
-    top: -33px;
-    color: #FFFFFF;
-    padding-left: 5px;
 
+    color: #B73636;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 5px;
     margin-top: 5px;
     padding-right: 12px;
 }
 
 .catalog_item_image{
     display: grid;
+    height: 200px;
 }
 
 .catalog_item_addToBuy{
@@ -76,9 +103,10 @@
 }
 
 .catalog_item_goodsImage{
-    width: 105%;
+    width: 100%;
+    height: 215px;
     position: relative;
-    top: -39px;
+    top: -41px;
     left: -0px; 
 }
 

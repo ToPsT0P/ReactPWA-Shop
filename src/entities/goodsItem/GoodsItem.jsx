@@ -18,7 +18,7 @@ const GoodsItem = () => {
             </div>
             <div className={styles.catalog_itemBottom}>
                 <div className={styles.catalog_itemBottom_text}>
-                    Не, ну тут какой-то текст, мб полезный, мб нет, я не ебу, честное слово
+                    Some product name
                 </div>
                 <div className={styles.catalog_itemBottom_price}>
                     189 RUB

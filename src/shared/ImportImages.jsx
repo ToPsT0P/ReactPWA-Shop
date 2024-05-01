@@ -14,9 +14,10 @@ import pushes from "./pushes.png"
 import home from "./home.png"
 import user from "./user.png"
 import cart from "./cart.png"
+import starUnliked from "./starUnliked.svg"
 
 const Images = {
-    addToCart,pushes, user, cart, home, like, photo1, photo2, vector, searchImage, exampleImage, exitImage, shareImage, userIcon, minus, plus
+    addToCart, starUnliked, pushes, user, cart, home, like, photo1, photo2, vector, searchImage, exampleImage, exitImage, shareImage, userIcon, minus, plus
 }
 
 

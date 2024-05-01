@@ -7,6 +7,7 @@ import MyCart from '../pages/MyCart/MyCart';
 import Navbar from '../widgets/navbar/Navbar';
 import FilterModal from '../widgets/filterModal/FilterModal';
 import UserOrder from '../pages/userOrder/UserOrder';
+import NotificationPage from "../pages/notificationPage/NotificationPage";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/item" element={<CurrentItem/>}/>
         <Route path='/cart' element={<MyCart/>}/>
         <Route path="/order" element={<UserOrder/>} />
+        <Route path="/notification" element={<NotificationPage/>} />
       </Routes>
         <Navbar/>
     </div>

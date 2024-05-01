@@ -3,6 +3,7 @@
 .productPage_wrapper{
     width: 100%;
     height: fit-content;
+    background-color: #fff;
 }
 
 .productPage_topSide{
@@ -62,9 +63,9 @@
     top: -60px;
 }
 
-.productPage_topSide_description_text p{
+.productPage_topSide_description_text{
     width: 65%;
-    min-width: 265px;
+    min-width: 250px;
 }
 
 .productPage_topSide_description_price{
@@ -95,7 +96,7 @@
 .productPage_topSide_description_price_name{
     color: #1a1a1d7e;
     padding-left: 5px;
-    
+    border-bottom: 1px solid black;
     width: 51px;
     height: 22px;
 
@@ -225,12 +226,15 @@
 }
 
 .productPage_bottomSide_comments{
-    max-height: 300px;
+    width: 270px;
+    height: 200px;
     overflow: auto;
-    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #B73636;
     margin-bottom: 20px;
-    border: 1px solid rgba(152, 152, 152, 0.571);
-    box-shadow: 1px 1px 10px #1A1A1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .productPage_bottomSide_button{

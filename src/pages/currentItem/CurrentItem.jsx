@@ -40,7 +40,6 @@ const CurrentItem = () => {
                     </div>
                     <div className={styles.productPage_topSide_description_price}>
                         <p className={styles.productPage_topSide_description_price_priceText}>500 RUB</p>
-                        <p className={styles.productPage_topSide_description_price_name}>SHOES</p>
                         <div className={styles.productPage_topSide_description_price_circles}>
                             <div 
                             style={{backgroundColor: "yellow"}}
@@ -74,33 +73,6 @@ const CurrentItem = () => {
             <div className={styles.productPage_bottomSide}>
                 <h2>CUSTOMERS RATING</h2>
                 <div className={styles.productPage_bottomSide_comments}>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
-                    <Comment/>
                     <Comment/>
                 </div>
 
